@@ -113,3 +113,22 @@ form .button input{
 form .button input:hover{
     background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
+@media (max-width: 584px) {
+    .container{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .gender-details .category{
+        width: 100%;
+    }
+    .container form .user-details{
+        max-height: 300px;
+        overflow: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
+}
